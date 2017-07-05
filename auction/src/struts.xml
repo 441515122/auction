@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 2.1//EN" "http://struts.apache.org/dtds/struts-2.1.dtd">
+<struts>
+	
+	<package name="my_pack" extends="struts-default">
+		<action name="loginAction" class="UserAction" method="login">
+			<result name="success" type="redirect">auctionList.action</result>
+			<result name="error">/login.jsp</result>
+			<result name="input">/login.jsp</result>
+		</action>
+		
+		<action name="registerAction" class="UserAction" method="register">
+			<result name="success">/login.jsp</result>
+			<result name="error">/register.jsp</result>
+			<result name="input">/register.jsp</result>
+		</action>
+		
+		<action name="auctionList" class="AuctionAction" method="auctionList">
+			<result name="success">/index.jsp</result>
+		</action>
+		
+		<action name="doLogout" class="AuctionAction" method="logout">
+			<result name="success">/login.jsp</result>
+		</action>
+		
+		<!-- 级联删除商品信息 -->
+		<action name="deleteAction" class="AuctionAction" method="doDelete">
+			<param name="savePath">/upload</param>
+			<result name="success" type="redirect">auctionList.action</result>
+		</action>
+		
+		<!-- 加载具体信息 -->
+		<action name="detailAction" class="AuctionAction" method="detail">
+			<result name="success">/updateAuction.jsp</result>
+		</action>
+		
+		<!-- 添加商品 -->
+		<action name="publishAction" class="AuctionAction" method="publishAuctin">
+			<param name="savePath">/upload</param>
+			<result name="success" type="redirect">auctionList.action</result>
+			<result name="error">/addAuction.jsp</result>
+		</action>
+		
+		<action name="updateAction" class="UpdateAuctionAction" method="doUpdate">
+			<param name="savePath">/upload</param>
+			<result name="success" type="redirect">auctionList.action</result>
+		</action>
+		
+		<!-- 加载竞拍具体信息 -->
+		<action name="auctionAction" class="AuctionAction" method="detail">
+			<result name="success">/auction.jsp</result>
+		</action>
+		
+		<!-- 按条件模糊查询 -->
+		<action name="findAction" class="AuctionAction" method="findAuction">
+			<result name="success">/index.jsp</result>
+		</action>
+		
+		<!-- 竞拍记录的提交 -->
+		<action name="doAuctionBid" class="AuctionAction" method="doAuctionBid">
+			<result name="error">/error.jsp</result>
+			<result name="success" type="redirectAction">auctionAction?auctionid=${auction.auctionid}</result>
+		</action>
+				
+		<action name="detailauctionAction" class="AuctionAction" method="detail">
+			<result name="success">/detailAuction.jsp</result>
+		</action>
+		
+		<action name="auctionResultAction" class="AuctionAction" method="toAuctionResult">
+			<result name="success">/auctionResult.jsp</result>
+		</action>
+		
+	</package>
+</struts>    

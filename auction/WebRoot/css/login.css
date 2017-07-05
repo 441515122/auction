@@ -1,0 +1,81 @@
+.image{
+    margin-left: 18%;
+    margin-top: 10%;
+}
+.my_title{
+	margin-top: 6%;
+	margin-left: 45%;
+	font-family: STHupo;
+	text-shadow: 6px 5px 0 #1d9d74, 11px 10px 0 rgba(0,0,0,0.15);
+    font-size: 50px;
+    font-weight:bold;
+    color:#fff;
+}
+.model{
+    margin-top: 6%;
+    margin-left: 54%;
+    width: 420px;
+    height: 340px;
+    border:1px solid #666;
+    border-radius: 20px;
+    -webkit-box-shadow: #444 0px 0px 20px;  
+   -moz-box-shadow: #444 0px 0px 20px;  
+   box-shadow: #444 0px 0px 20px; 
+}
+.title{
+	color: #FFF;
+    /* color: dodgerblue; */
+    margin-left: 20px;
+    font-family: "Î¢ÈíÑÅºÚ";
+    font-size: 23px;
+}
+.user{
+    margin-top: 40px;
+    margin-left: 25px;
+    font-family: "¿¬Ìå";
+    font-size: 18px;
+}
+.password{
+    margin-top: 30px;
+    margin-left: 25px;
+    font-family: "¿¬Ìå";
+    font-size: 18px;
+}
+.inputCode{
+    margin-top: 30px;
+    margin-left: 25px;
+    font-family: "¿¬Ìå";
+    font-size: 18px;
+}
+.form-control{
+    margin-top: -35px;
+    margin-left: 110px;
+    width: 250px;
+    font-size: 15px;
+}
+#inputCode{
+    width: 120px;
+}
+
+.img{
+     margin-top: -33px;
+     margin-left: 238px;
+     border: 3px;
+}
+#login{
+    margin-top: 1px;
+    margin-left: 100px;
+     font-family: "Î¢ÈíÑÅºÚ";
+    font-size: 18px;
+     width: 120px;
+}
+#register{
+    margin-top: -40px;
+    margin-left: 240px;
+    font-family: "Î¢ÈíÑÅºÚ";
+    font-size: 18px;
+    width: 120px;
+}
+.check{
+     margin-left: 25px;
+}

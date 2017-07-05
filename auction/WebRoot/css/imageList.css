@@ -1,0 +1,139 @@
+.all{
+    width: 78%;
+   margin: 0 auto;
+}
+.top{
+    height: 29px;
+}
+.logo{
+    margin-top: 10px;
+    font-family: "Î¢ÈíÑÅºÚ";
+    font-size: 24px;
+    font-weight: bold;
+    color: cadetblue;
+    float: left;
+}
+#logout{
+   font-family: "Î¢ÈíÑÅºÚ";
+   font-size: 15px;
+    font-weight: bold;
+    margin-left: 850px;
+    margin-top: 10px;
+}
+.center{
+    font-family: "ºÚÌå";
+    font-size: 15px;
+}
+.font{
+    margin-top: 6px;
+    float: left;
+}
+#name1{
+    width: 150px;
+    float: left;
+    font-weight:bold;
+}
+#name{
+	margin-left:38px;
+	font-weight:bold;
+    width: 150px;
+    float: left;
+}
+#search{
+    margin-left: 38px;
+    font-weight:bold;
+}
+#add{
+    margin-right: 800px;
+    margin-top: 10px;
+    font-family: "ºÚÌå";
+    font-size: 20px;
+    color: white;
+    background-color: lightcoral;
+    border: 0px;
+    border-radius: 5px;
+    width: 75px;
+    height: 30px;
+}
+#add:hover
+{ 
+background-color: steelblue;
+}
+#addOne{
+    margin-right: 800px;
+    margin-top: 10px;
+    font-family: STHeiti;
+    font-size: 17px;
+    color: white;
+    background-color: lightcoral;
+    border: 0px;
+    border-radius: 5px;
+    width: 90px;
+    height: 30px;
+}
+#addOne:hover
+{ 
+background-color: steelblue;
+}
+.page{
+     text-align:center;
+     clear: both;
+}
+.bottom{
+    margin-top: 1px;
+    border:1px solid #999;
+}
+.tableList{
+    width: 19%;
+    height:230px;
+    margin-left: 53px;
+    margin-top: 20px;
+    border:2px solid #999;
+    border-radius: 5px;
+   
+     /*-webkit-box-shadow: steelblue 0px 0px 10px;  
+   -moz-box-shadow: steelblue4 0px 0px 10px;  
+   box-shadow: steelblue 0px 0px 10px; */
+
+   float: left;
+}
+.tableList:hover{  
+    border:2px solid lightcoral;
+}
+.listfont1{
+    margin-top: 5px;
+    font-size: 11px;
+    font-family: "Î¢ÈíÑÅºÚ";
+    font-weight: bold;
+}
+.listfont2{
+    margin-top: -3px;
+    font-size: 11px;
+    font-family: "Î¢ÈíÑÅºÚ";
+    font-weight: bold;
+    float: left;
+    color:red;
+}
+.image{
+    width: 100%;
+    height: 70%;
+    border-radius: 5px;
+    cursor:pointer;
+}
+.auctionButton{
+    font-family: "ºÚÌå";
+    font-size: 16px;
+    color: white;
+    background-color: steelblue;
+    border: 0px;
+    border-radius: 2px;
+    width: 55px;
+    height: 25px;
+    float: right;
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
+.auctionButton:hover
+{ 
+background-color: red;
+}

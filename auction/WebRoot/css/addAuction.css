@@ -1,0 +1,94 @@
+.all{
+    width: 78%;
+   margin: 0 auto;
+    border-radius: 10px;
+}
+.top{
+    height: 29px;
+}
+.logo{
+    margin-top: 10px;
+    font-family: "Î¢ÈíÑÅºÚ";
+    font-size: 24px;
+    font-weight: bold;
+    color: cadetblue;
+    float: left;
+}
+#logout{
+   font-size: 15px;
+    font-weight: bold;
+    float: right;
+   margin-top: 1%;
+}
+.name{
+    margin-left: 193px;
+    margin-top: 20px;
+}
+.endtime{
+    margin-left: 193px;
+    margin-top: 20px;
+}
+.starttime{
+    margin-left: 568px;
+    margin-top: -28px;
+}
+.name1{
+    margin-left: 580px;
+    margin-top: -28px;
+}
+.name3{
+     margin-left: 183px;
+    margin-top: 75px;
+}
+#form{
+    width: 223px;
+    height: 32px;
+    margin-left: 260px;
+    margin-top: -30px;
+    font-weight: bold;
+}
+#form1{
+    width: 223px;
+    height: 32px;
+    margin-left: 640px;
+    margin-top: -30px;
+    font-weight: bold;
+}
+.label{
+    font-size: 18px;
+    font-weight: bold;
+    color: cadetblue;
+}
+.img{
+     margin-left: 30px;
+}
+#imagePreview{
+	margin-left: 280px;
+	width:100px;
+	height:100px;
+}
+.loadImage{
+    margin-left: 440px;
+    margin-top: -25px;
+}
+.ptext{
+    margin-left: 193px;
+    margin-top: 30px;
+}
+#ptext{
+    margin-left: 260px;
+    margin-top: -25px;
+    font-weight:bold;
+    width: 600px;
+    height: 120px;
+}
+#save{
+     margin-left: 260px;
+    margin-top: 25px;
+    width: 80px;
+}
+#back{
+    margin-left: 30px;
+    margin-top: 25px;
+     width: 80px;
+}

@@ -1,0 +1,88 @@
+.all {
+    width: 78%;
+    margin: 0 auto;
+}
+
+.top {
+    height: 29px;
+}
+
+.logo {
+    margin-top: 10px;
+    font-family: "Î¢ÈíÑÅºÚ";
+    font-size: 24px;
+    font-weight: bold;
+    color: cadetblue;
+    float: left;
+}
+
+#logout {
+    font-family: "Î¢ÈíÑÅºÚ";
+    font-size: 15px;
+    font-weight: bold;
+    margin-left: 850px;
+    margin-top: 10px;
+}
+
+.img {
+    margin-top: 10px;
+    margin-left: 20px;
+    width: 220px;
+    height: 210px;
+    /*border: 1px solid #999;*/
+}
+
+.img p {
+    font-size: 15px;
+    font-family: "Î¢ÈíÑÅºÚ";
+    font-weight: bold;
+    color: blueviolet;
+    text-align: center;
+}
+
+.detail {
+    /*border: 1px solid #999;*/
+    margin-left: 350px;
+    margin-top: -180px;
+}
+
+.font {
+    color: #999;
+}
+
+.form-control {
+    margin-left: 60px;
+    margin-top: -30px;
+    width: 200px;
+}
+
+#auctionButton {
+    margin-left: 280px;
+    margin-top: -55px;
+}
+
+#auctionButton1 {
+    margin-left: 380px;
+    margin-top: -95px;
+}
+
+#auctionButton2 {
+    margin-left: 10px;
+    margin-top: -95px;
+}
+
+.auction {
+    margin-top: 80px;
+}
+
+.bottom {
+    margin-top: 20px;
+    width:70%;
+}
+
+.jilu {
+    font-size: 18px;
+    font-family: "Î¢ÈíÑÅºÚ";
+    font-weight: bold;
+    color: cadetblue;
+}

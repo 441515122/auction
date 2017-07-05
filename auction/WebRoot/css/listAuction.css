@@ -1,0 +1,72 @@
+.all{
+    width: 78%;
+   margin: 0 auto;
+    border-radius: 10px;
+}
+.top{
+    height: 29px;
+}
+.logo{
+    margin-top: 10px;
+    font-family: "Î¢ÈíÑÅºÚ";
+    font-size: 24px;
+    font-weight: bold;
+    color: cadetblue;
+    float: left;
+}
+#logout{
+   font-size: 15px;
+    font-weight: bold;
+    float: right;
+   margin-top: 1%;
+}
+.center{
+    font-size: 15px;
+}
+.font{
+    margin-top: 6px;
+    float: left;
+}
+#name{
+    width: 14%;
+    float: left;
+}
+#search{
+    margin-left: 15px;
+    float: right;
+}
+#add{
+    margin-right: 800px;
+    margin-top: 10px;
+    font-family: "Î¢ÈíÑÅºÚ";
+    font-size: 20px;
+    color: white;
+    background-color: lightcoral;
+    border: 0px;
+    border-radius: 5px;
+    width: 75px;
+    height: 30px;
+}
+#add:hover
+{ 
+background-color: steelblue;
+}
+#addOne{
+    margin-right: 800px;
+    margin-top: 10px;
+    font-family: STHeiti;
+    font-size: 20px;
+    color: white;
+    background-color: lightcoral;
+    border: 0px;
+    border-radius: 5px;
+    width: 90px;
+    height: 30px;
+}
+#addOne:hover
+{ 
+background-color: steelblue;
+}
+.page{
+     text-align:center;
+}
